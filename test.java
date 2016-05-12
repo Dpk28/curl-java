@@ -16,7 +16,7 @@ class test implements CurlWrite {
 
         }
         catch (java.io.IOException moo) {
-          // nothing
+            moo.printStackTrace();
         }
         return 0;
     }
